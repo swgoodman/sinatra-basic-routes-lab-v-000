@@ -6,4 +6,9 @@ class App < Sinatra::Base
     status 200
     "My name is Jenjamin."
   end
+
+  get '/hometown' do
+    status 200
+    "My hometown is"
+  end
 end
