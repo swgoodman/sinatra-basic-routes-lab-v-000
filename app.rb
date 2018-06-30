@@ -11,4 +11,9 @@ class App < Sinatra::Base
     status 200
     "My hometown is "
   end
+
+  get '/favorite-song' do
+    status 200
+    "My favorite song is "
+  end
 end
