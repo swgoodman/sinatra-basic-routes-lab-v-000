@@ -2,7 +2,7 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
 
-  get '/' do
+  get '/name' do
     status 200
   end
 end
